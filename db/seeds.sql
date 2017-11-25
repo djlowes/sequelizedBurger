@@ -1,0 +1,23 @@
+### Seeds
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cheeseburger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Baconburger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Mapple Syrup Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Rabbit Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Corned Beef Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cranberry and Apple Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Tripple Bacon Deluxe Cheeseburger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Double Hog Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Lettuce Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Honda Civic Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Strawberry Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Plum and Seaweed Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Oyster Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Fish Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Noodle Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cement Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cat Burg(l)er', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Woof Woof Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Donkey Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Djlowes Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('SF Burger', false);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Robert Bacon Burger', false);

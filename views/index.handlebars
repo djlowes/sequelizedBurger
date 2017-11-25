@@ -1,0 +1,54 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center" id="top-bar">
+			<h1>
+				<img src="../img/burger.png" alt="burger icon">
+					<span id="heading">Eat-Da-Burger</span>
+				<img src="../img/burger.png" alt="burger icon">
+			</h1>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center enter_section">
+			<form action="/burgers/create" method="POST">
+				<h3>Enter the name of a burger you would like to devour (don't be shy): </h3>
+					<input type="text" name="burger_name" class="form-control" value="" id="enter_text"><br>
+				<button type="submit" class="btn btn-default" id="text-enter-button">Submit</button>
+			</form>
+		</div>
+	</div>
+</div><br>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center" class="task">
+			<h3>Burgers to Devour</h3>
+			{{#each result}}
+			{{#unless this.devoured}}
+		</div>
+		<div class="col-md-4 text-center">
+			<p><i class="fa fa-bars" aria-hidden="true"> </i> {{this.burger_name}}</p>
+			<form method="POST" action="/burgers/update?_method=PUT" class="button-size">
+				<input type="hidden" name="burger_id" type="text" value={{this.id}}>
+				<button type="submit" class="btn btn-default">Devour it</button>
+			</form><br>
+			{{/unless}}
+			{{/each}}
+		</div>
+	</div>
+</div><br>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-center" class="task">
+			<h3>Devoured Burgers</h3>
+			{{#each result}}
+			{{#if this.devoured}}
+				<input class"form-control" type="text" placeholder="{{this.burger_name}}" readonly>
+			{{/if}}
+			{{/each}}
+		</div>
+	</div>
+</div><br>
+
+<!-- // Work on design when you get time -->
